@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(28, 28, 35);
+}
+
+btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.purple {
+    background-color: purple;
+    padding: 30px;
+}
+
+.blue {
+    background-color: blue;
+    padding: 30px;
+}
+
+.red {
+    background-color: red;
+    padding: 30px;
+}
+
+.green {
+    background-color: green;
+    padding: 30px;
+}
+
+.yellow {
+    background-color: yellow;
+    padding: 30px;
+}
+
+.teal {
+    background-color: teal;
+    padding: 30px;
+}
+
+.content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
